@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "tesseract_bin"
   gem.homepage = "http://github.com/Danilo Jeremias da Silva/tesseract_bin"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{sdadsa}
+  gem.description = %Q{dsadas asdad asd ass}
   gem.email = "dannnylo@gmail.com"
   gem.authors = ["Danilo Jeremias da Silva"]
   # dependencies defined in Gemfile
@@ -32,14 +32,6 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
-end
-
 task :default => :test
 
 require 'rdoc/task'
@@ -51,3 +43,4 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
