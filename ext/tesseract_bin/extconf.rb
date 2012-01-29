@@ -4,9 +4,12 @@ root = File.expand_path('../../..', __FILE__)
 
 Dir.chdir(File.join(root, 'vendor/tesseract-2.04')) do
   system "./configure", "--prefix=#{root}"
+  puts "make"
   system "make"
-  system "make install"
-  system "make clean"
+  puts "make install"
+#  system "make install"
+#  puts "make clean"
+#  system "make clean"
 end
 
 create_makefile 'tesseract_bin'
