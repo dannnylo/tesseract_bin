@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "tesseract_bin"
   gem.homepage = "http://github.com/Danilo Jeremias da Silva/tesseract_bin"
   gem.license = "MIT"
-  gem.summary = %Q{sdadsa}
-  gem.description = %Q{dsadas asdad asd ass}
+  gem.summary = %Q{Gem binary of tesseract 2.04}
+  gem.description = %Q{Gem binary of tesseract 2.04}
   gem.email = "dannnylo@gmail.com"
   gem.authors = ["Danilo Jeremias da Silva"]
   # dependencies defined in Gemfile
