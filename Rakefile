@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "tesseract_bin"
-  gem.homepage = "http://github.com/Danilo Jeremias da Silva/tesseract_bin"
+  gem.homepage = "http://github.com/dannnylo/tesseract_bin"
   gem.license = "MIT"
   gem.summary = %Q{Gem binary of tesseract 2.04}
-  gem.description = %Q{Gem binary of tesseract 2.04}
+  gem.description = %Q{Gem binary of tesseract version 2.04}
   gem.email = "dannnylo@gmail.com"
   gem.authors = ["Danilo Jeremias da Silva"]
   # dependencies defined in Gemfile

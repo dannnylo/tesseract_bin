@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Danilo Jeremias da Silva"]
   s.date = %q{2012-01-29}
-  s.description = %q{dsadas asdad asd ass}
+  s.description = %q{Gem binary of tesseract version 2.04}
   s.email = %q{dannnylo@gmail.com}
   s.extensions = ["ext/tesseract_bin/extconf.rb"]
   s.extra_rdoc_files = [
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "ext/tesseract_bin/extconf.rb",
     "lib/tesseract_bin.rb",
+    "tesseract_bin.gemspec",
     "test/helper.rb",
     "test/test_tesseract_bin.rb",
     "vendor/tesseract-2.04/AUTHORS",
@@ -629,11 +630,11 @@ Gem::Specification.new do |s|
     "vendor/tesseract-2.04/wordrec/wordclass.cpp",
     "vendor/tesseract-2.04/wordrec/wordclass.h"
   ]
-  s.homepage = %q{http://github.com/Danilo Jeremias da Silva/tesseract_bin}
+  s.homepage = %q{http://github.com/dannnylo/tesseract_bin}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
-  s.summary = %q{sdadsa}
+  s.summary = %q{Gem binary of tesseract 2.04}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
