@@ -7,7 +7,7 @@ Dir.chdir(File.join(root, 'vendor/tesseract-2.04')) do
   puts "make"
   system "make"
   puts "make install"
-  system "make install"
+  #system "make install"
   puts root.inspect
 #  puts "make clean"
 #  system "make clean"
