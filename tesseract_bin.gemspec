@@ -5,14 +5,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{tesseract_bin}
-  s.version = "1.0.0"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Danilo Jeremias da Silva"]
-  s.date = %q{2012-01-29}
+  s.authors = [%q{Danilo Jeremias da Silva}]
+  s.date = %q{2012-01-31}
   s.description = %q{Gem binary of tesseract version 2.04}
   s.email = %q{dannnylo@gmail.com}
-  s.extensions = ["ext/tesseract_bin/extconf.rb"]
+  s.extensions = [%q{ext/tesseract_bin/extconf.rb}]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -27,6 +27,35 @@ Gem::Specification.new do |s|
     "VERSION",
     "ext/tesseract_bin/extconf.rb",
     "lib/tesseract_bin.rb",
+    "tessdata/Makefile.am",
+    "tessdata/Makefile.in",
+    "tessdata/configs/Makefile.am",
+    "tessdata/configs/Makefile.in",
+    "tessdata/configs/api_config",
+    "tessdata/configs/box.train",
+    "tessdata/configs/box.train.stderr",
+    "tessdata/configs/inter",
+    "tessdata/configs/kannada",
+    "tessdata/configs/makebox",
+    "tessdata/configs/unlv",
+    "tessdata/confsets",
+    "tessdata/eng.DangAmbigs",
+    "tessdata/eng.freq-dawg",
+    "tessdata/eng.inttemp",
+    "tessdata/eng.normproto",
+    "tessdata/eng.pffmtable",
+    "tessdata/eng.unicharset",
+    "tessdata/eng.user-words",
+    "tessdata/eng.word-dawg",
+    "tessdata/makedummies",
+    "tessdata/tessconfigs/Makefile.am",
+    "tessdata/tessconfigs/Makefile.in",
+    "tessdata/tessconfigs/batch",
+    "tessdata/tessconfigs/batch.nochop",
+    "tessdata/tessconfigs/matdemo",
+    "tessdata/tessconfigs/msdemo",
+    "tessdata/tessconfigs/nobatch",
+    "tessdata/tessconfigs/segdemo",
     "tesseract_bin.gemspec",
     "test/helper.rb",
     "test/test_tesseract_bin.rb",
@@ -631,9 +660,9 @@ Gem::Specification.new do |s|
     "vendor/tesseract-2.04/wordrec/wordclass.h"
   ]
   s.homepage = %q{http://github.com/dannnylo/tesseract_bin}
-  s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
+  s.licenses = [%q{MIT}]
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.6}
   s.summary = %q{Gem binary of tesseract 2.04}
 
   if s.respond_to? :specification_version then

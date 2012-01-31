@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Gem binary of tesseract version 2.04}
   gem.email = "dannnylo@gmail.com"
   gem.authors = ["Danilo Jeremias da Silva"]
-  gem.executables   = "tesseract"
+#  gem.executables   = ["tesseract"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
