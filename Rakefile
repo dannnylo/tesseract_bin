@@ -21,6 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Gem binary of tesseract version 2.04}
   gem.email = "dannnylo@gmail.com"
   gem.authors = ["Danilo Jeremias da Silva"]
+  gem.executables   = "tesseract"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -43,4 +44,3 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
-
