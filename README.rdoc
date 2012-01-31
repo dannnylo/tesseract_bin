@@ -2,6 +2,14 @@
 
 Gem binary of tesseract 2.04. Tested on heroku.
 
+Need to configure the TESSDATA_PREFIX
+
+heroku config:add TESSDATA_PREFIX=PATH_TO_GEMS/tesseract_bin-VERSION/vendor/tesseract-2.04/
+
+Example:
+
+heroku config:add TESSDATA_PREFIX=/app/.bundle/gems/ruby/1.9.1/gems/tesseract_bin-1.0.2/vendor/tesseract-2.04/
+
 == Contributing to tesseract_bin
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
@@ -16,4 +24,3 @@ Gem binary of tesseract 2.04. Tested on heroku.
 
 Copyright (c) 2012 Danilo Jeremias da Silva. See LICENSE.txt for
 further details.
-
